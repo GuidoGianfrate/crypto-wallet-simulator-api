@@ -1,0 +1,35 @@
+server:
+   port: 9000
+   
+spring:
+# ===============================
+# = DATA SOURCE
+# ===============================
+# Set here configurations for the database connection
+  datasource:
+    platform: h2
+    url: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+    
+# ===============================
+# = JPA / HIBERNATE
+# ===============================
+# Show or not log for each sql query
+  jpa:
+    show-sql: true
+    generate-ddl: true
+# Hibernate ddl auto (create, create-drop, update): with "create-drop" the database
+# schema will be automatically created fresh for every start of application
+    hibernate:
+       ddl-auto:update
+#create-drop - update:manejo de hibernate con la bbdd: 
+#UPDATE: If the DB doesn't exist, it creates it or modify it if it exist
+#CREATE-DROP: It drops the DB and it recreates it
+#VALIDATE: Validates that a table matches the entity defined in the application.
+#NONE: This value is used for production since the table already exist and it has values.
+
+  h2:
+    console:
+        enabled: true

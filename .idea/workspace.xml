@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d49b8bc-ebf7-4b48-94d0-3d188440407b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d89hvpCkebQ3OP7u2DSXW5IN5a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.softvision.spring_demo.students.service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.softvision.skillmatrix.skills" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.softvision.spring_demo.students.exception" />
+      <recent name="com.softvision.spring_demo.students.config" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Guido Gianfrate\Desktop\DEMO\demo\src\main\java\com\softvision\skillmatrix\skills\exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WalletsApplication">
+    <configuration name="AccessingDataJpaApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.softvision.skillmatrix.students.config.AccessingDataJpaApplication" />
+      <module name="Wallet-CRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.softvision.skillmatrix.students.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentsApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.softvision.skillmatrix.students.StudentsApplication" />
+      <module name="Wallet-CRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.softvision.skillmatrix.students.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WalletsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.softvision.spring_demo.students.WalletsApplication" />
+      <module name="Wallet-CRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.softvision.spring_demo.students.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aaa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.softvision.spring_demo.students.config.aaa" />
+      <module name="Wallet-CRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.softvision.spring_demo.students.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Wallet-CRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.softvision.spring_demo.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.softvision.spring_demo.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.softvision.spring_demo.integration.IntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WalletsApplication" />
+        <item itemvalue="Application.aaa" />
+        <item itemvalue="JUnit.IntegrationTest" />
+        <item itemvalue="Application.StudentsApplication (1)" />
+        <item itemvalue="Application.AccessingDataJpaApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d49b8bc-ebf7-4b48-94d0-3d188440407b" name="Default Changelist" comment="" />
+      <created>1591795975460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591795975460</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.name" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Auto_Import" timestamp="1592067460892">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Auto_Import/0.0.1280.680@0.0.1280.680" timestamp="1592067460892" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1592313470545">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1592313470545" />
+    <state x="223" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592314327012">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="223" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1592314327012" />
+    <state x="432" y="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1592067579311">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="432" y="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1592067579311" />
+    <state x="147" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592915122120">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="147" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1592915122120" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592915190198">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1592915190198" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1592920260289">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1592920260289" />
+    <state width="1237" height="28" key="GridCell.Tab.0.bottom" timestamp="1592941639686">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="28" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592941639686" />
+    <state width="1237" height="28" key="GridCell.Tab.0.center" timestamp="1592941639686">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="28" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592941639686" />
+    <state width="1237" height="28" key="GridCell.Tab.0.left" timestamp="1592941639686">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="28" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592941639686" />
+    <state width="1237" height="28" key="GridCell.Tab.0.right" timestamp="1592941639686">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="28" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592941639686" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1592090869376">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592090869376" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1592090869376">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1592090869376" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1592090869376">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1592090869376" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1592090869376">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1592090869376" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1592920551339">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1592920551339" />
+    <state x="379" y="59" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592246499376">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="379" y="59" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1592246499376" />
+    <state x="271" y="37" width="739" height="606" key="find.popup" timestamp="1592083077702">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="271" y="37" width="739" height="606" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1592083077702" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1592242274071">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1592242274071" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1592937694150">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1592937694150" />
+  </component>
+</project>
