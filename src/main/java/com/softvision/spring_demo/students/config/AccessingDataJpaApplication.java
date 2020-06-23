@@ -23,15 +23,10 @@ public class AccessingDataJpaApplication {
     @Bean
     public CommandLineRunner demo(WalletRepository repository) {
         return (args) -> {
-            // save a few students
-
             HashMap coinPrice = new HashMap();
-            coinPrice.put("USD",1000000.0);
-
+            coinPrice.put("ARS",1000000.0);
             repository.save(new Wallet("Guido",coinPrice));
-
-
-
+            repository.save(new Wallet("Marcelo",coinPrice));
         };
     }
 

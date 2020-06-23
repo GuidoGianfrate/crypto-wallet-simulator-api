@@ -53,7 +53,7 @@ public class WalletService {
 
 
     @Transactional
-    public WalletDTO saveStudent(Wallet wallet) {
+    public WalletDTO saveWallet(Wallet wallet) {
         walletRepository.save(wallet);
         //cast to dto
         WalletDTO walletDTO = new WalletDTO();

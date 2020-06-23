@@ -34,22 +34,22 @@ public class WalletController {
 
     @PostMapping("/wallets")
     public ResponseEntity<WalletDTO> addNewWallet(@RequestBody Wallet wallet){
-        WalletDTO walletDTO = walletService.saveStudent(wallet);
+        WalletDTO walletDTO = walletService.saveWallet(wallet);
         return new ResponseEntity<>(walletDTO,HttpStatus.CREATED);
     }
 
     @PutMapping("/wallets/{id}")
     public ResponseEntity<WalletDTO> updateWallet(@PathVariable Long id,@RequestBody Wallet wallet) {
-        //if the student exists
+        //if the wallet exists
         walletService.getWalletById(id);
         wallet.setId(id);
-        WalletDTO walletDTO = walletService.saveStudent(wallet);
+        WalletDTO walletDTO = walletService.saveWallet(wallet);
         return new ResponseEntity<WalletDTO>(walletDTO,HttpStatus.OK);
     }
 
     @DeleteMapping("/wallets/{id}")
     public ResponseEntity<DeleteResponseDTO> deleteWallet(@PathVariable Long id){
-        //if the student exists
+        //if the wallet exists
         walletService.getWalletById(id);
         walletService.deleteWallet(id);
         DeleteResponseDTO deleteResponseDTO = new DeleteResponseDTO();

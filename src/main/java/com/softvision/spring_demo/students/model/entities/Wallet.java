@@ -29,17 +29,4 @@ public class Wallet {
         name = entryName;
         coinPrice = entryMap;
     }
-
-    public void addMoneyOrAddCoin(String coin, Double mount) {
-
-        if(coinPrice.get(coin) == null){
-            coinPrice.put(coin,mount);
-        }else {
-            coinPrice.put(coin, coinPrice.get(coin) + mount);
-        }
-    }
-    public void sustractMoney(String coin,Double mount){
-            coinPrice.put(coin, coinPrice.get(coin) - mount);
-    }
-
 }
