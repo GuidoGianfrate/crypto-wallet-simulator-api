@@ -2,6 +2,7 @@ package com.softvision.spring_demo.students.controller;
 
 import com.softvision.spring_demo.students.dto.BuyCurrencyDTO;
 import com.softvision.spring_demo.students.dto.TransferCurrencyDTO;
+import com.softvision.spring_demo.students.dto.TransferResumeDTO;
 import com.softvision.spring_demo.students.dto.WalletDTO;
 import com.softvision.spring_demo.students.service.OperationCurrencyService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,12 +28,16 @@ public class OperationController {
     }
 
     @PostMapping("/wallets/{idWallet}/currency/transfer")
-    public ResponseEntity<WalletDTO> transferCurrency(@PathVariable Long idWallet, @RequestBody TransferCurrencyDTO transferCurrencyDTO){
+    public ResponseEntity<TransferResumeDTO> transferCurrency(@PathVariable Long idWallet, @RequestBody TransferCurrencyDTO transferCurrencyDTO){
 
-        operationCurrencyService.transferMoneyBetweenWallets(idWallet,transferCurrencyDTO)
+        TransferResumeDTO transferResumeDTO = operationCurrencyService.transferMoneyBetweenWallets(idWallet,
+                                                            transferCurrencyDTO.getCoinToTransfer(),
+                                                            transferCurrencyDTO.getMountToTransfer(),
+                                                            transferCurrencyDTO.getCoinThatWillReceive(),
+                                                            transferCurrencyDTO.getIdWallet());
 
 
-        return new ResponseEntity<>(null,HttpStatus.OK);
+        return new ResponseEntity<>(transferResumeDTO,HttpStatus.OK);
     }
 
 

@@ -1,6 +1,6 @@
 package com.softvision.spring_demo.students.service;
 
-import com.softvision.spring_demo.students.dto.TransferResume;
+import com.softvision.spring_demo.students.dto.TransferResumeDTO;
 import com.softvision.spring_demo.students.dto.WalletDTO;
 import com.softvision.spring_demo.students.exception.BadInputException;
 import com.softvision.spring_demo.students.exception.ConflictException;
@@ -46,9 +46,9 @@ public class OperationCurrencyService {
         return walletDTO;
     }
 
-    public TransferResume transferMoneyBetweenWallets(Long transferFromWalletId, String coinToTransfer,
-                                                     Double mountToTransfer, String coinToGive,
-                                                     Long toWalletId){
+    public TransferResumeDTO transferMoneyBetweenWallets(Long transferFromWalletId, String coinToTransfer,
+                                                         Double mountToTransfer, String coinThatWillReceive,
+                                                         Long toWalletId){
 
         WalletDTO walletThatTransfer = walletService.getWalletById(transferFromWalletId);
         WalletDTO walletThatReceive = walletService.getWalletById(toWalletId);
@@ -57,12 +57,45 @@ public class OperationCurrencyService {
         HashMap<String,Double>coinPriceOfReceiveWallet = walletThatReceive.getCoinPrice();
 
         //check if the transfer has the coin and the mount wanted
-        if(coinPriceOfTransferWallet.get(coinToTransfer) == null)throw new ConflictException("The wallet that want transfer "+coinToTransfer+ " not have this coin");
+        if(coinPriceOfTransferWallet.get(coinToTransfer) == null)throw new ConflictException("Your wallet not have "+coinToTransfer);
+        if(coinPriceOfTransferWallet.get(coinToTransfer) < mountToTransfer)throw new ConflictException("You want to transfer "+mountToTransfer+" "+coinToTransfer+" but you have only "+ coinPriceOfTransferWallet.get(coinToTransfer)+ " "+ coinToTransfer);
 
+        String cointToDeposit;
+        Double mountToDeposit;
+        //change the type
+        if(coinToTransfer.equals(coinThatWillReceive)){
+            cointToDeposit = coinToTransfer;
+            mountToDeposit = mountToTransfer;
+        }else{
+            LinkedHashMap<String,Double> coinToBuyMap = cryptoCoinService.getValuesOfCoins(coinToTransfer,coinThatWillReceive);
+            Double valueOfOneCoinToTransferInReceiveCoin = coinToBuyMap.get(coinThatWillReceive);
+            mountToDeposit = valueOfOneCoinToTransferInReceiveCoin * mountToTransfer;
+            cointToDeposit = coinThatWillReceive;
+        }
 
+        //discount the money from the walletThatTransfer
+        walletThatTransfer.sustractMoney(coinToTransfer,mountToTransfer);
+        //add money to the receiver
+        walletThatReceive.addMoneyOrAddCoin(cointToDeposit,mountToDeposit);
 
+        //save in the database
+        Wallet walletToTransferEntity = new Wallet();
+        walletToTransferEntity.setId(walletThatTransfer.getId());
+        walletToTransferEntity.setName(walletThatTransfer.getName());
+        walletToTransferEntity.setCoinPrice(walletThatTransfer.getCoinPrice());
+        walletService.saveWallet(walletToTransferEntity);
 
-        return null;
+        Wallet walletToReceiveEntity = new Wallet();
+        walletToReceiveEntity.setId(walletThatReceive.getId());
+        walletToReceiveEntity.setName(walletThatReceive.getName());
+        walletToReceiveEntity.setCoinPrice(walletThatReceive.getCoinPrice());
+        walletService.saveWallet(walletToReceiveEntity);
+
+        TransferResumeDTO transferResumeDTO = new TransferResumeDTO();
+        transferResumeDTO.setYourWallet(walletThatTransfer);
+        transferResumeDTO.setReceiver(walletThatReceive);
+
+        return transferResumeDTO;
 
 
 

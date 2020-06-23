@@ -9,6 +9,6 @@ public class TransferCurrencyDTO {
 
     String coinToTransfer;
     Double mountToTransfer;
-    String coinToGive;
+    String coinThatWillReceive;
     Long idWallet;
 }
