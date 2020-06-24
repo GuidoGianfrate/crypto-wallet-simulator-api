@@ -51,6 +51,7 @@ public class CryptoCoinService {
 
     public ArrayList<String> getAllNamesOfCryptoCoins(){
         ConnectionToApi connectionToApi = new ConnectionToApi();
+
         ResponseEntity<LinkedHashMap> res =  connectionToApi.connect(BASE_URL+"/all/coinlist", HttpMethod.GET, LinkedHashMap.class,null);
         LinkedHashMap totalResponse =  res.getBody();
         LinkedHashMap objectWithArrayListOfCoins = (LinkedHashMap) totalResponse.get("Data");
@@ -60,10 +61,15 @@ public class CryptoCoinService {
     }
 
     public LinkedHashMap getValuesOfCoins(String turnOverCoin,String listCoinToConvert){
-        ConnectionToApi connectionToApi = new ConnectionToApi();
-        ResponseEntity<LinkedHashMap> res =  connectionToApi.connect(BASE_URL+"/price"+convertFromURL+turnOverCoin+convertToURL+listCoinToConvert, HttpMethod.GET, LinkedHashMap.class,null);
-        LinkedHashMap x = res.getBody();
-        return x;
+            ConnectionToApi connectionToApi = new ConnectionToApi();
+
+            ResponseEntity<LinkedHashMap> res = connectionToApi.connect(BASE_URL + "/price" + convertFromURL + turnOverCoin + convertToURL + listCoinToConvert, HttpMethod.GET, LinkedHashMap.class, null);
+            LinkedHashMap response = res.getBody();
+
+            if(response.get("Response").equals("Error"))throw new BadInputException("The currency "+ turnOverCoin+ " not exist");
+
+
+        return response;
     }
 
 

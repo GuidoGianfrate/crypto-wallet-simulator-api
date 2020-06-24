@@ -30,7 +30,8 @@ public class OperationCurrencyService {
         HashMap<String,Double>coinPricesWallet = walletDTO.getCoinPrice();
         if(coinPricesWallet.get(coinToPay) == null)throw new BadInputException("The Wallet not have the coin to pay");
         //logic for know what is the value to pay
-        LinkedHashMap<String,Double> coinToBuyMap = cryptoCoinService.getValuesOfCoins(coinToBuy,coinToPay);
+        LinkedHashMap<String, Double> coinToBuyMap =  cryptoCoinService.getValuesOfCoins(coinToBuy, coinToPay);
+
         Double valueOfOneCoinToBuy = coinToBuyMap.get(coinToPay);
         Double valueToPayForTheWantedMount = valueOfOneCoinToBuy * mountToBuy;
         //check if the wallet has enough money
@@ -67,7 +68,8 @@ public class OperationCurrencyService {
             cointToDeposit = coinToTransfer;
             mountToDeposit = mountToTransfer;
         }else{
-            LinkedHashMap<String,Double> coinToBuyMap = cryptoCoinService.getValuesOfCoins(coinToTransfer,coinThatWillReceive);
+            LinkedHashMap<String, Double> coinToBuyMap = cryptoCoinService.getValuesOfCoins(coinToTransfer, coinThatWillReceive);
+
             Double valueOfOneCoinToTransferInReceiveCoin = coinToBuyMap.get(coinThatWillReceive);
             mountToDeposit = valueOfOneCoinToTransferInReceiveCoin * mountToTransfer;
             cointToDeposit = coinThatWillReceive;

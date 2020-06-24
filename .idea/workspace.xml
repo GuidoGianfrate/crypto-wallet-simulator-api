@@ -54,26 +54,13 @@
       <recent name="C:\Users\Guido Gianfrate\Desktop\DEMO\demo\src\main\java\com\softvision\skillmatrix\skills\exception" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CryptoCoinServiceTest">
+  <component name="RunManager" selected="JUnit.OperationCurrencyServiceTest">
     <configuration name="WalletsApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.softvision.crypto.wallets.WalletsApplication" />
       <module name="Wallet-CRUD" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.softvision.crypto.wallets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WalletsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.softvision.crypto.students.WalletsApplication" />
-      <module name="Wallet-CRUD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.softvision.crypto.students.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,6 +98,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OperationCurrencyServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Wallet-CRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.softvision.crypto.wallets.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.softvision.crypto.wallets.service" />
+      <option name="MAIN_CLASS_NAME" value="com.softvision.crypto.wallets.service.OperationCurrencyServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WalletServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wallet-CRUD" />
       <extension name="coverage">
@@ -128,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OperationCurrencyServiceTest" />
+        <item itemvalue="Application.WalletsApplication (1)" />
         <item itemvalue="JUnit.CryptoCoinServiceTest" />
         <item itemvalue="JUnit.CryptoCoinServiceTest (1)" />
-        <item itemvalue="Application.WalletsApplication (1)" />
         <item itemvalue="JUnit.WalletServiceTest" />
-        <item itemvalue="Application.WalletsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -186,22 +188,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1592920260289" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1593023699462">
+    <state width="1237" height="50" key="GridCell.Tab.0.bottom" timestamp="1593028933357">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593023699462" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1593023699462">
+    <state width="1237" height="50" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593028933357" />
+    <state width="1237" height="50" key="GridCell.Tab.0.center" timestamp="1593028933357">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593023699462" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1593023699462">
+    <state width="1237" height="50" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593028933357" />
+    <state width="1237" height="50" key="GridCell.Tab.0.left" timestamp="1593028933357">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593023699462" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1593023699462">
+    <state width="1237" height="50" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593028933357" />
+    <state width="1237" height="50" key="GridCell.Tab.0.right" timestamp="1593028933357">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593023699462" />
+    <state width="1237" height="50" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593028933357" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1592090869376">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -234,9 +236,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1592242274071" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1592937694150">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1593029076274">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1592937694150" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1593029076274" />
   </component>
 </project>
