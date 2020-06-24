@@ -89,10 +89,6 @@ public class OperationCurrencyService {
         transferResumeDTO.setReceiver(walletThatReceive);
 
         return transferResumeDTO;
-
-
-
-
     }
 
 

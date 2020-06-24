@@ -11,8 +11,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -37,23 +37,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.softvision.crypto.wallets.service" />
       <recent name="com.softvision.spring_demo.students.service" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.softvision.skillmatrix.skills" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Guido Gianfrate\Desktop\DEMO\demo\src\main\java\com\softvision\skillmatrix\skills\exception" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.softvision.spring_demo.students.exception" />
       <recent name="com.softvision.spring_demo.students.config" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Guido Gianfrate\Desktop\DEMO\demo\src\main\java\com\softvision\skillmatrix\skills\exception" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WalletServiceTest">
+  <component name="RunManager" selected="JUnit.CryptoCoinServiceTest">
     <configuration name="WalletsApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.softvision.crypto.wallets.WalletsApplication" />
       <module name="Wallet-CRUD" />
@@ -80,29 +81,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aaa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.softvision.spring_demo.students.config.aaa" />
+    <configuration name="CryptoCoinServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wallet-CRUD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.softvision.crypto.students.config.*" />
+          <option name="PATTERN" value="com.softvision.crypto.wallets.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.softvision.crypto.wallets.service" />
+      <option name="MAIN_CLASS_NAME" value="com.softvision.crypto.wallets.service.CryptoCoinServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CryptoCoinServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wallet-CRUD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.softvision.crypto.integration.*" />
+          <option name="PATTERN" value="com.softvision.crypto.wallets.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.softvision.spring_demo.integration" />
-      <option name="MAIN_CLASS_NAME" value="com.softvision.spring_demo.integration.IntegrationTest" />
+      <option name="PACKAGE_NAME" value="com.softvision.crypto.wallets.service" />
+      <option name="MAIN_CLASS_NAME" value="com.softvision.crypto.wallets.service.CryptoCoinServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WalletServiceTest" />
+        <item itemvalue="JUnit.CryptoCoinServiceTest" />
+        <item itemvalue="JUnit.CryptoCoinServiceTest (1)" />
         <item itemvalue="Application.WalletsApplication (1)" />
+        <item itemvalue="JUnit.WalletServiceTest" />
         <item itemvalue="Application.WalletsApplication" />
-        <item itemvalue="Application.aaa" />
-        <item itemvalue="JUnit.IntegrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,10 +166,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="223" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1592314327012" />
-    <state x="438" y="200" width="439" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593007179347">
+    <state x="438" y="200" width="439" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593023385109">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="438" y="200" width="439" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1593007179347" />
+    <state x="438" y="200" width="439" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1593023385109" />
     <state x="432" y="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1592067579311">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -183,22 +186,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1592920260289" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1593008012167">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1593023699462">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593008012167" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1593008012167">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593023699462" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1593023699462">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593008012167" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1593008012167">
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593023699462" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1593023699462">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593008012167" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1593008012167">
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593023699462" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1593023699462">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593008012167" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593023699462" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1592090869376">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -219,10 +222,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1593001662676" />
-    <state x="379" y="59" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593008106660">
+    <state x="379" y="59" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593023740836">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="379" y="59" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1593008106660" />
+    <state x="379" y="59" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1593023740836" />
     <state x="271" y="37" width="739" height="606" key="find.popup" timestamp="1592083077702">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
