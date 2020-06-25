@@ -54,7 +54,7 @@
       <recent name="C:\Users\Guido Gianfrate\Desktop\DEMO\demo\src\main\java\com\softvision\skillmatrix\skills\exception" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OperationCurrencyServiceTest">
+  <component name="RunManager" selected="Application.WalletsApplication (1)">
     <configuration name="WalletsApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.softvision.crypto.wallets.WalletsApplication" />
       <module name="Wallet-CRUD" />
@@ -130,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OperationCurrencyServiceTest" />
         <item itemvalue="Application.WalletsApplication (1)" />
+        <item itemvalue="JUnit.OperationCurrencyServiceTest" />
         <item itemvalue="JUnit.CryptoCoinServiceTest" />
         <item itemvalue="JUnit.CryptoCoinServiceTest (1)" />
         <item itemvalue="JUnit.WalletServiceTest" />
@@ -220,10 +220,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1592090869376" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1593001662676">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1593092085717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1593001662676" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1593092085717" />
     <state x="379" y="59" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593023740836">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
