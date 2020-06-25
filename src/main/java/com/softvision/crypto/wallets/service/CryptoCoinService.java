@@ -66,7 +66,7 @@ public class CryptoCoinService {
             ResponseEntity<LinkedHashMap> res = connectionToApi.connect(BASE_URL + "/price" + convertFromURL + turnOverCoin + convertToURL + listCoinToConvert, HttpMethod.GET, LinkedHashMap.class, null);
             LinkedHashMap response = res.getBody();
 
-            if(response.get("Response").equals("Error"))throw new BadInputException("The currency "+ turnOverCoin+ " not exist");
+            if(response.get("Response") != null && response.get("Response").equals("Error"))throw new BadInputException("The currency "+ turnOverCoin+ " not exist");
 
 
         return response;
